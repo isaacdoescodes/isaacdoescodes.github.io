@@ -1,0 +1,11 @@
+@import 'components/sidebar';
+
+body.page main {
+    padding-top: 100px;
+    margin-left: 400px;
+
+    @media screen and (max-width: 985px) {
+        margin-left: 0px;
+        padding: 20px;
+    }
+}

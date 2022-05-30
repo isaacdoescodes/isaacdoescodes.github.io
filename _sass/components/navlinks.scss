@@ -1,0 +1,25 @@
+nav {
+    a {
+        color: currentColor;
+        text-decoration: none;
+        display: inline;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .sep {
+        display: inline-block;
+        background-color: white;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        margin: 0px 5px;
+        margin-bottom: 1.8px;
+
+    }
+
+    margin-bottom: 25px;
+}
