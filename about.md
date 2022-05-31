@@ -3,19 +3,12 @@ layout: page
 title: About
 ---
 
-Hi I'm Isaac a young coder who likes tinkering with code and stuff. I've made a couple random projects in my time. You can check them out on my [projects page](/projects/).
+Hello there! I'm Isaac, a young computer nerd from England. I haven't really made anything useful but I might do when school is not a problem. I've made a few small things though. You can check them out on my [projects page](/projects). 
 
-If you want to follow me on places then you go to [tiktok](https://www.tiktok.com/@isaacdoescodes) or, if you code aswell, on [github](https://github.com/isaacdoescodes). I'm only allowed tiktok and github because that's all my parents will let me but I may be getting twitter and/or instagram soon (maybe).
+I live in a small village on the outskirts of a really boring town called Swindon. Like it has a shopping center and… well… nothing else. Luckily it's not too far from Bristol and London.
 
-## What I have done
+Although this website is mainly focused on coding I like a few other things. Trains are cool and I'm also learning piano.
 
-Nothing :\ (important anyway)
+I'm mainly skilled in (Technical Jargon Alert) HTML, CSS and JS. This website is created using the Jekyll tooling and Sass. I know a little in Electron.js and Node. And I'm considering learning Swift and TypeScript. 
 
-## What I like doing
-
-- Coding
-- Playing Games
-
-## What I _can_ use
-
-- Use HTML, CSS, JS, Jekyll, Sass (sort-of), Python, PHP
+Ok that's it, you can explore the rest of the website now.
