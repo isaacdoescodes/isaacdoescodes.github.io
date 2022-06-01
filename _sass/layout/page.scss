@@ -9,8 +9,7 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .read {
-    font-size: 1.1rem;
-
+        font-size: $content-font-size;
 }
 
 body.page main {
@@ -20,13 +19,17 @@ body.page main {
     max-width: $content-max-width;
 
     a {
-        color: #0000ff;
+        color: $link-color;
     }
 
     hr {
         width: 50ch;
         max-width: 100%;
         margin-left: 0px;
+    }
+
+    .page-title {
+        font-size: $page-title-font-size;
     }
 
     @media screen and (max-width: 985px) {
@@ -85,9 +88,9 @@ body.page main {
 }
 
 // Post list links
-.post {
-    p {
-        color: rgb(121, 121, 121);
+.post-item {
+    .preview {
+        color: $preview-text-color;
     }
 
     h2 {
@@ -101,12 +104,12 @@ body.page main {
 }
 
 .tag {
-    color: rgb(0, 0, 33) !important;
+    color: $light-text-color !important;
     text-decoration: none;
     padding: 5px;
     font-size: $small-tag-size;
     border-radius: 5px;
-    background-color: rgb(213, 213, 213);
+    background-color: $tag-background-color;
     margin-right: 3px;
 }
 
@@ -118,7 +121,7 @@ body.page main {
 footer {
     padding: 50px;
     box-sizing: border-box;
-    background-color: rgb(248, 248, 248);
+    background-color: $footer-background-color;
 
     @media screen and (min-width: 985px) {
         margin-left: 380px;

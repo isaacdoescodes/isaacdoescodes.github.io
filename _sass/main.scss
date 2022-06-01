@@ -5,9 +5,13 @@ $light-text-color: #000;
 $dark-text-color: #fff;
 $light-blank-background: #fff;
 $dark-blank-background: #1e1e1e;
+$link-color: #0000ff;
 $title-text-gradient: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1));
 $home-text-color: #fff;
 $disabled-text-color: #8080806e;
+$preview-text-color: #797979;
+$tag-background-color: #d5d5d5;
+$footer-background-color: #f8f8f8;
 
 $serif-font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $monoscape-font-family: 'Fira Code', monospace;
@@ -18,6 +22,8 @@ $content-max-width: 75ch;
 $root-font-size: 16px;
 $sidebar-title-font-size: 2.5rem;
 $small-tag-size: 0.875rem;
+$content-font-size: 1.1rem;
+$page-title-font-size: 2rem;
 
 @import 'defaults';
 @import 'layout/home';

@@ -15,7 +15,7 @@ Before we get into the code I just want to quickly explain what the Rick Timer i
 
 
 
-# How I made it.
+## How I made it.
 
 I started by creating a boilerplate html page
 ```html

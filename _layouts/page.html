@@ -8,7 +8,7 @@
 <body class="page">
     {% include sidebar.html %}
     <main>
-        <h1 id="titlebox">{{page.title}}</h1>
+        <h1 id="titlebox" class="page-title">{{page.title}}</h1>
         {% if page.layout == 'post' %}
         <p>{{ page.date | date: "%-d %B %Y" }}</p><br>
         # 
