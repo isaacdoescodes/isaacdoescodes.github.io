@@ -56,12 +56,12 @@ body.page main {
 
     img {
         border-radius: 50%;
-        width: 190px;
+        width: $sidebar-profile-image-size;
     }
 
     .module-border-wrap {
-        width: 190px;
-        height: 190px;
+        width: $sidebar-profile-image-size;
+        height: $sidebar-profile-image-size;
         border-radius: 50%;
         position: relative;
         background-image: $title-text-gradient;
@@ -100,7 +100,7 @@ body.page main {
 
 .post-sep {
     width: 25ch;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid currentColor;
 }
 
 .tag {
@@ -129,4 +129,11 @@ footer {
 
     position: sticky;
     top: 100%;
+}
+
+.tag-list {
+    font-size: $tag-list-font-size;
+    .tag {
+        font-size: inherit;
+    }
 }

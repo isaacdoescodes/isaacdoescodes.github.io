@@ -1,29 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
 
+
+// Colors
 $colorful-background: #1d1545;
 $light-text-color: #000;
 $dark-text-color: #fff;
 $light-blank-background: #fff;
 $dark-blank-background: #1e1e1e;
 $link-color: #0000ff;
-$title-text-gradient: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1));
+$title-text-gradient: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1)); // Also image border
 $home-text-color: #fff;
 $disabled-text-color: #8080806e;
 $preview-text-color: #797979;
 $tag-background-color: #d5d5d5;
 $footer-background-color: #f8f8f8;
 
+
+// Fonts
 $serif-font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $monoscape-font-family: 'Fira Code', monospace;
 
+// Widths
 $sidebar-width: 380px;
+$sidebar-profile-image-size: 190px;
+$home-profile-image-size: 200px;
 $content-max-width: 75ch;
 
+// Font Sizes
 $root-font-size: 16px;
+$home-title-font-size: 3.13rem;
 $sidebar-title-font-size: 2.5rem;
 $small-tag-size: 0.875rem;
 $content-font-size: 1.1rem;
 $page-title-font-size: 2rem;
+$tag-list-font-size: 1.25rem;
+$icon-link-font-size: 1.68rem;
+$nav-link-font-size: 1rem;
 
 @import 'defaults';
 @import 'layout/home';
