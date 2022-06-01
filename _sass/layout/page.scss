@@ -121,8 +121,11 @@ body.page main {
 footer {
     padding: 50px;
     box-sizing: border-box;
-    background-color: $footer-background-color;
+    background-color: $footer-light-background-color;
 
+    @media (prefers-color-scheme: dark) {
+        background-color: $footer-dark-background-color;
+    }
     @media screen and (min-width: 985px) {
         margin-left: 380px;
     }
