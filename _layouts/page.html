@@ -8,13 +8,18 @@
 <body class="page">
     {% include sidebar.html %}
     <main>
-        <h1>{{page.title}}</h1>
+        <h1 id="titlebox">{{page.title}}</h1>
         {% if page.layout == 'post' %}
-        <p>{{ page.date | date: "%-d %B %Y" }}</p>
+        <p>{{ page.date | date: "%-d %B %Y" }}</p><br>
+        # 
+        {% for tag in page.tags %}
+        <a href="/tag/{{tag}}" class="tag">{{tag}}</a>
+        {% endfor %}
         {%endif%}
         <hr>
         {{content}}
     </main>
+    {% include footer.html %}
 </body>
 
 </html>

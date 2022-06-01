@@ -1,0 +1,17 @@
+<div class="post">
+    <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+    </a>
+    <i>{{ post.date | date: "%-d %B %Y" }}</i>
+    <p>
+        #
+        {% for tag in post.tags %}
+        <a href="/tag/{{tag}}" class="tag">{{tag}}</a>
+        {% endfor %}
+    </p>
+    <p>
+        {{ post.content | strip_html | truncatewords:25}}
+    </p>
+</div>
+<div class="post-sep"></div>
+<br><br>

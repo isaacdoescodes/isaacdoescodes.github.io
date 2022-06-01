@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<div style="font-size: 20px;">
+    {% for tag in site.tags %}
+    
+    # <a href="/tag/{{tag[0]}}" style="font-size: inherit;" class="tag">{{tag[0]}}</a>
+    
+    {% endfor %}
+</div>
