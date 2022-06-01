@@ -1,3 +1,7 @@
+:root {
+    font-size: $root-font-size;
+}
+
 html,
 body {
     padding: 0;
@@ -7,32 +11,26 @@ body {
 }
 
 body {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-}
-html.home {
-    height: 100%;
-}
-
-body.home {
-    background-color: #1d1545;
-    color: white;
-    height: 100%;
+    font-family: $serif-font-family;
 }
 
 
 .disabled {
-    color: rgba(128, 128, 128, 0.433);
+    color: $disabled-text-color;
     cursor: not-allowed;
 }
 
 .disabled:hover {
     text-decoration: none;
 }
-
+body.page {
+    background-color: $light-blank-background;
+        color: $light-text-color;
+}
 @media (prefers-color-scheme: dark) {
     body.page {
-        background-color: rgb(25, 25, 25);
-        color: white;
+        background-color: $dark-blank-background;
+        color: $dark-text-color;
     }
 }
 

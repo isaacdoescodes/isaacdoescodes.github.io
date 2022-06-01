@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
 pre {
     padding: 20px;
     overflow-x: scroll;
@@ -7,7 +7,7 @@ pre {
 }
 
 code {
-    font-family: 'Fira Code', monospace;;
+    font-family: $monoscape-font-family;
 }
 
 

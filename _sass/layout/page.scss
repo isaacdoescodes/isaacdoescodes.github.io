@@ -16,8 +16,8 @@ html {
 body.page main {
     padding-top: 100px;
     margin: 0px 90px;
-    margin-left: 450px;
-    max-width: 75ch;
+    margin-left: $sidebar-width + 70px;
+    max-width: $content-max-width;
 
     a {
         color: #0000ff;
@@ -39,12 +39,12 @@ body.page main {
 }
 
 .sidebar {
-    background: #1d1545;
+    background: $colorful-background;
     position: fixed;
     left: 0;
     top: 0;
     color: white;
-    width: 380px;
+    width: $sidebar-width;
     height: 100%;
     text-align: center;
     display: grid;
@@ -61,15 +61,15 @@ body.page main {
         height: 190px;
         border-radius: 50%;
         position: relative;
-        background-image: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1));
+        background-image: $title-text-gradient;
         margin: auto;
         padding: 5px;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: $sidebar-title-font-size;
         margin-bottom: 20px;
-        background-image: linear-gradient(122deg, rgba(0, 82, 255, 1), rgba(158, 10, 255, 1));
+        background-image: $title-text-gradient;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -104,7 +104,7 @@ body.page main {
     color: rgb(0, 0, 33) !important;
     text-decoration: none;
     padding: 5px;
-    font-size: 14px;
+    font-size: $small-tag-size;
     border-radius: 5px;
     background-color: rgb(213, 213, 213);
     margin-right: 3px;
