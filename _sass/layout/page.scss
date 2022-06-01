@@ -1,19 +1,27 @@
 body.page {
     height: 100%;
 }
+
 html {
     height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .read {
     font-size: 1.1rem;
+
 }
+
 body.page main {
     padding-top: 100px;
     margin: 0px 90px;
     margin-left: 450px;
     max-width: 75ch;
+
+    a {
+        color: #0000ff;
+    }
 
     hr {
         width: 50ch;
@@ -93,7 +101,7 @@ body.page main {
 }
 
 .tag {
-    color: rgb(0, 0, 33);
+    color: rgb(0, 0, 33) !important;
     text-decoration: none;
     padding: 5px;
     font-size: 14px;
