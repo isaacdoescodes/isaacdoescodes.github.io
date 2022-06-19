@@ -1,5 +1,11 @@
 body.page {
     height: 100%;
+    [data-tooltip]:before,
+        [data-tooltip]:after,
+        .tooltip:before,
+        .tooltip:after {
+            display: none !important;
+        }
 }
 
 html {
